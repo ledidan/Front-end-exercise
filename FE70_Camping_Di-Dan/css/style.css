@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  background-color: #faf4f2;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+#header {
+  background-color: #f8e1db;
+  /* padding-top: 20px;
+  padding-right: 0;
+  padding-bottom: 20px;
+  padding-left: 0; */
+  padding: 20px 0;
+}
+
+#header img {
+  margin-left: 35px;
+}
+
+#header ul {
+  list-style: none;
+}
+
+#header ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+#carousel {
+  background: url("../images/BG.png");
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+}
+
+#activities {
+  margin-top: 70px;
+}
+
+.activities_title {
+  text-align: center;
+  color: #8d8d8d;
+}
+
+.activities_item {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.activities_img {
+  position: relative;
+}
+
+.activities_img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.activities_img i {
+  color: red;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.589);
+  width: 40px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.activities_content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.activities_content button {
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 45px;
+  font-size: 15px;
+}
+
+/* apply this when using float: left */
+.clear-both {
+  clear: both;
+}
+
+.activities_view_all {
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+.activities_view_all button {
+  color: red;
+  border: 1px solid red;
+  border-radius: 30px;
+  padding: 15px 50px;
+  background-color: transparent;
+}
+
+
+/* Contact Content */
+#contact {
+  background-color: #f8e1db;
+  border-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#contact .contact__left,
+#contact .contact__right {
+  float: left;
+  width: 50%;
+  padding-top: 40px;
+}
+#contact .contact__left{
+  background: url(/images/mask.png);
+  background-size: cover;
+  background-position: center;
+}
+#contact .contact__left img {
+  margin-left: 80px;
+}
+
+.contact__right .description,
+.contact__links-left,
+.contact__links-right {
+  color: #8d8d8d;
+}
+
+.contact__right .description h2 {
+  font-size: xx-large;
+}
+
+.contact__right .description p {
+  font-size: large;
+  padding-right: 50px;
+}
+
+.contact__links-left,
+.contact__links-right {
+  float: left;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.contact__links-left ul{
+  display: flex;
+  margin-left: -40px;
+  padding-top: 10px;
+}
+
+.contact__links-left ul li{
+  list-style: none;
+  margin-right: 10px;
+}
+
+.contact__links-right ul{
+  display: flex;
+  margin-left: -40px;
+  padding-top: 10px;
+}
+.contact__links-right ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+.contact__links-right i {
+  font-size: 25px;
+  color: rgb(255, 177, 32);
+}
+
+/* Footer */
+footer{
+  background-color: #f8e1db;
+  margin-top: 100px;
+  height: 400px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+#col-list{
+  padding: 80px 100px;
+}
+#col-list .col-1,
+#col-list .col-2,
+#col-list .col-3,
+#col-list .col-4{
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.col-1 .footer_title{
+  padding-bottom: 10px;
+  width: 120%;
+}
+.col-1 p {
+  width: 120%;
+  line-height: 30px;
+  font-size: 18px;
+}
+#col-list .footer_title {
+  font-size: 20px;
+}
+
+.col-2 .footer_title,
+.col-3 .footer_title,
+.col-4 .footer_title{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.col-2 ul,
+.col-4 ul{
+  margin-left: 60px;
+}
+.col-3 ul{
+  margin-left: 75px;
+}
+.col-2 ul li,
+.col-3 ul li,
+.col-4 ul li{
+  list-style: none;
+  margin-bottom: 15px;
+}
+.col-2 ul li a,
+.col-3 ul li a,
+.col-4 ul li a{
+  text-decoration: none;
+  color: rgb(59, 58, 58);
+  font-size: 18px;
+}
